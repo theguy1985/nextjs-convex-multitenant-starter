@@ -1,0 +1,15 @@
+---
+description: "Frontend React TSX component patterns"
+globs: ["src/**/*.tsx", "src/**/*.ts"]
+alwaysApply: false
+---
+
+- Use functional components with React.FC and well-typed props
+- Define props interface above the component implementation
+- Always default export at bottom of file
+- Use Radix UI, Tailwind, and avoid using MUI
+- Use Next Router for navigation
+- Always include loading/error state handling
+- Prefer minimal, readable JSX; break large components into smaller ones
+- Use Toasts for notifications: React Toastify and Radix Toast
+

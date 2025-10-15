@@ -1,0 +1,42 @@
+---
+description: "Gym Management Project - tech stack, coding standards, architecture overview"
+alwaysApply: true
+---
+
+# Tech stack
+- Frontend: React 18 + TypeScript + Vite
+- Backend: Convex + nextjs + @auth/core
+- Styling: Tailwind CSS, Radix UI components
+- Tools: ESLint, Prettier, browser-image-compression
+
+# Coding standards
+- Use TypeScript in all files
+- Prefer functional React components with hooks
+- Each file: add type and interface definitions above implementations
+- Use descriptive variable and function names
+- Include error handling in user input and API requests
+- Always write doc comments for exported functions/classes
+
+<!-- # Folder structure
+- `/src/UI` for React UI pages
+- `/src/components` for React components
+- `/src/utils` for helpers and utilities
+- `/src/services` for API calls
+- `/convex` Convex functions and data logic -->
+
+# Scripts
+- To run both frontend and backend locally: `npm run dev`
+- To build production bundle: `npm run build`
+
+# Convex patterns
+- Store business logic in Convex server functions
+- Use input validation and permissions for all data mutations
+
+# Styling
+- Use Tailwind for all styles; avoid inline styles
+- Use Radix UI for accessible interactive components
+
+# Lint & format
+- Run `npm run lint` before commits
+- Fix prettier and eslint issues automatically
+
